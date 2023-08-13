@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+  }
+  
+  div {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .seat-map {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .seat-row {
+    display: flex;
+    margin: 5px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+  }
+  
+  .booked {
+    background-color: #12f037;
+    color: #ffffff;
+  }
+
+  .last-booked {
+    margin: 10px;
+    text-align: left;
+
+    div {
+        text-align: left;
+    }
+  }
